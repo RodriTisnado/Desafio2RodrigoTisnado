@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Playwrite+HU:wght@100..400&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: #EDEDED;
+}
+main{
+    border: 3px solid #F96E4B;
+}
+header{
+    background-color: #946840;
+    padding: 5px;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 19px;
+    background-color: #EDEDED;
+    border-radius: 0px;
+    border: 3px solid #F96E4B;
+    align-items: center;
+    padding: 3px;
+}
+h1{
+    font-family: "Playwrite HU", cursive;
+}
+nav img{
+    width: 200px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.card {
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px #EDD9C9;
+}
+.card img{
+    width: 150px;
+}
+.card :hover{
+    transform: scale(1.05);
+}
+.card h1 {
+    padding: 10px;
+
+}
+.card h2 {
+    padding: 10px;
+}
+
+.uno {
+    border-color: red;
+}
+.dos {
+    display: flex;
+    justify-content: center;
+}
+div a {
+    text-decoration: none;
+
+}
+div a:hover{
+    text-decoration: underline;
+}
+.caja {
+    color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+.info{
+    margin-bottom: 30px;
+    overflow: auto;
+    align-items: center;
+}
+.info img {
+    float: left;
+    width: 450px;
+    margin-left: 300px;
+}
+.info h2 {
+    margin-right: 300px;
+}
+.info a {
+    margin-right: 350px;
+}
+footer{
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 20px;
+}
+.cajafooter{
+    margin: 0px;
+    padding: 0px;
+}
